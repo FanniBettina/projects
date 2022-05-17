@@ -1,0 +1,32 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Ferencv\u00e1rosi TC",
+        "city": "Budapest"
+    },
+    "2": {
+        "id": "2",
+        "name": "\u00dajpest FC",
+        "city": "Budapest"
+    },
+    "3": {
+        "id": "3",
+        "name": "MTK",
+        "city": "Budapest"
+    },
+    "4": {
+        "id": "4",
+        "name": "Paksi FC",
+        "city": "Paks"
+    },
+    "5": {
+        "id": "5",
+        "name": "DVSC",
+        "city": "Debrecen"
+    },
+    "6": {
+        "id": "6",
+        "name": "Szeged 2011",
+        "city": "Szeged"
+    }
+}

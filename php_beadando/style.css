@@ -1,0 +1,163 @@
+*{
+    font-family: Garamond, serif;
+}
+body{
+    width: 100%;
+}
+
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    text-align: center;
+  
+}
+#homePage {
+    background-color:#BBB4B2;
+	width:80%;
+	max-width:80%;
+	margin:20px auto;
+	border:0px dotted  gray;
+	box-shadow:0 0;
+    padding-top: 0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#informations{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+
+    
+}
+
+h2{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+li {
+    line-height: 25px;
+    font-size: 17px;
+    list-style-type: circle;
+    
+}
+#link {
+    color: black;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: rgb(124, 105, 105);
+    
+}
+
+#logins {
+    right:0;
+    align-items: right; 
+    text-align: right;
+    margin-right: 250px;
+}
+
+#logins a {
+    margin-left: 25px;
+}
+#logins a:hover {
+    color: rgb(124, 105, 105);
+}
+
+#login{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 25px;
+}
+b{
+    font-size: 20px;
+}
+
+textarea {
+    margin-left: 25px;
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+}
+#registration{
+    margin-left: 25px;
+    line-height: 30px;
+}
+#registrationButton{
+    margin-left: 25px;
+    font-size: 16px;
+}
+#registrationLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 25px;
+}
+#registrationLink:hover{
+    color: rgb(124, 105, 105);
+}
+.error {
+    margin-left: 25px;
+    font-size: 17px;
+    color: #E34234;
+    line-height: 20px;
+}
+
+#green {
+    color: green;
+    display: inline-block;
+}
+#red {
+    color: red;
+    display: inline-block;
+}
+#yellow {
+    color: yellow;
+    display: inline-block;
+}
+#comment {
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+#commentinfo{
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#commentblock{
+    display: inline-block;
+}
+
+#deletelink{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 10px;
+    color: rgb(145, 74, 74);
+    text-decoration: none;
+}
+#deletelink:hover{
+    color: rgb(124, 105, 105);
+}
+
+#indexlink{
+    margin-left: 25px;
+    color: rgb(145, 74, 74);
+    text-decoration: none;
+}
