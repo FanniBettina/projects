@@ -1,0 +1,32 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.RowSorter;
+import javax.swing.SortOrder;
+import javax.swing.WindowConstants;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
+import persistence.HighScore;
+
+public class HighScoreWindow extends JDialog{
+    private final JTable table;
+    
+    public HighScoreWindow(ArrayList<HighScore> highScores, JFrame parent){
+        super(parent, true);
+        table = new JTable(new HighScoreTableModel(highScores));
+        table.setFillsViewportHeight(true);
+        
+        
+        add(new JScrollPane(table));
+        setSize(500,400);
+        setTitle("Legjobb eredmények");
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+}
